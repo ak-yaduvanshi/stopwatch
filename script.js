@@ -8,6 +8,7 @@ let timer = false;
 function myfun() {
     if (timer == true) {    
         msec++;
+        
         if (msec == 99) {
             sec++;
             msec = 0;
